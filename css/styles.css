@@ -1,0 +1,122 @@
+/* Reset margin and padding for all elements */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Set font family, color and size */
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #293241;
+  font-size: large;
+}
+
+/* navigation bar style */
+nav {
+  /* flex display to display elements in a row */
+  display: flex;
+  /* flex wrap so that new elements go to new line rather than continue infinitely */
+  flex-wrap: wrap;
+  /* align and justify centre to centre elements in all directions */
+  align-items: center;
+  justify-content: center;
+  /* set padding and gap */
+  padding: 0.5rem;
+  gap: 0.5rem;
+  /* add border to separate from rest of body */
+  border-bottom: solid 1px #aaa;
+  /* background color */
+  background-color: #eee;
+}
+
+/* set style for elements inside the nav bar to look like buttons */
+nav a {
+  /* display as inline block */
+  display: inline-block;
+  /* min-width to avoid too many different sizes */
+  min-width: 9rem;
+  /* a bit of padding */
+  padding: 0.5rem;
+  /* border style */
+  border-radius: 0.2rem;
+  border: solid 1px #aaa;
+  /* centre text */
+  text-align: center;
+  /* disable hyperlink decoration */
+  text-decoration: none;
+  /* set color text */
+  color: #555;
+}
+
+/* set style for selected page which is controlled by aria-current property */
+nav a[aria-current='page'] {
+  /* update color of text and background */
+  color: #293241;
+  background-color: #d4d4d4;
+}
+
+/* style for main page */
+main {
+  /* set display to flex in a column with center alignment everywhere so elements are floating in the middle */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* style for h1 */
+h1 {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* style for container div which contains rest of main elements */
+#container {
+  /* set width, height and margin */
+  width: 500px;
+  height: 300px;
+  margin-top: 150px;
+  /* round the border slightly */
+  border-radius: 2%;
+  /* set flex properties so elements float in the centre */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background color to a light orange */
+  background-color: #ec8d75;
+}
+
+/* style for any div that contains text */
+.text-container {
+  text-align: left;
+  margin: 10px;
+  padding: 5px;
+  /*background-color: #98c1d9;*/
+  border-radius: 2%;
+}
+
+/* style for button element */
+button {
+  /* margin, padding and rounded border */
+  margin-top: 5px;
+  padding: 20px;
+  border-radius: 5%;
+  /* give a background color with a bit of transparency */
+  background-color: #3d5a80;
+  opacity: 0.7;
+  /* set text color to white */
+  color: white;
+  /* disable default border */
+  border: none;
+  /* set cursor to pointer upon hovering */
+  cursor: pointer;
+}
+
+/* style for button when hovered */
+button:hover {
+  /* change background color and text font to a different combination */
+  background-color: #98c1d9;
+  color: black;
+}

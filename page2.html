@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page 2</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- link style -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- reference javascript -->
+    <script src="js/script2.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation bar displayed at the top -->
+    <nav>
+      <a href="/">Home</a>
+      <a href="/page1.html">Code One</a>
+      <a href="/page2.html" aria-current="page">Code Two</a>
+      <a href="/page3.html">Code Three</a>
+    </nav>
+    
+    <!-- Main page -->
+    <main>
+      <h1>This Page Uses script2.js</h1>
+
+      <!-- The container div wraps the rest of the page -->
+      <div id="container">
+        <!-- The display text paragraph will be updated through javascript upon pressing the update button -->
+        <p id="display-text">Display Text</p>
+        <button id="update-text">Update Display Text</button>
+      </div>
+    </main>
+  </body>
+</html>

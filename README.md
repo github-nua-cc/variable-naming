@@ -250,3 +250,8 @@ console.log(myArray); // This will log ['e', 'b', 'c']
 ```
 
 In this case, becayse I need to modify the element at position 0, I would have used cammelCase. But in the case of the script, since the array is 100% unchanging throughout the code, I use the uppercase snake case.
+
+## Recommended readings
+
+- [Difference between `let` and `var`](https://sentry.io/answers/difference-between-let-and-var-in-javascript/#:~:text=The%20difference%20between%20let%20and,in%20which%20they're%20declared.)
+- [Different types of cases and their uses across programming languages](https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/#:~:text=There%20is%20also%20an%20all,as%20the%20screaming%20snake%20case.&text=The%20capitalized%20version%20is%20used,the%20life%20of%20a%20program.)

@@ -1,6 +1,6 @@
 # Code Comparison
 
-This project contains three html pages with three different attach to them. The `html` and `css` is identical for each of these pages, except for which script they use in the background. Each of the scripts produces the same result, but their styles are slightly different. In class we will look at them and debate which one seems best to us.
+This project contains three html pages with three different scripts attached to them. The `html` and `css` is identical for all pages. Each of the scripts produces the same result, but their styles are slightly different. In class we will look at them and debate which one seems best to us.
 
 ## The Display Text Array
 
@@ -66,7 +66,6 @@ The choice of the coder here was to:
 - Declare this array as `let`, i.e. constant, instead of `const` or `var`
 - Use`cammelCaseStyle` style
 
-
 Which of these three do you think is best? When should we use `const` or `let`? What about `var`?
 
 ## The button and displayText objects
@@ -108,7 +107,6 @@ var displayText = document.getElementById("display-text");
 The choice of the coder here was to declare both objects as `var`.
 
 Which of these three do you think is best? Once again, we are asked to choose between `const`, `let` and `var`, although the names are all in the same style.
-
 
 ## The consequences of not understanding what's going on in the code
 
